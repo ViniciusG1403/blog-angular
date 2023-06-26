@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@700&display=swap");
+main {
+  animation-name: big-card;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  height: 50%;
+  width: 50%;
+}
+@keyframes big-card {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img {
+  width: 95%;
+}
+.big-card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.big-card-title h1 {
+  font-size: 1.5vw;
+  font-family: "Ysabeau SC", sans-serif;
+  color: white;
+}
+
+.big-card-title span {
+  font-size: 0.8vw;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: 300;
+  color: rgb(66, 66, 66);
+}
