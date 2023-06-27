@@ -1,1 +1,26 @@
-<p>home works!</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="big-card">
+      <app-big-card
+        imgSrc="{{ mainNotice.imgSrc }}"
+        imgTitle="{{ mainNotice.imgTitle }}"
+        imgSubtitle="{{ mainNotice.imgSubtitle }}"
+      ></app-big-card>
+    </div>
+    <div class="small-card">
+      <app-small-card
+        *ngFor="let notice of noticeList"
+        imgSrc="{{ notice.imgSrc }}"
+        titleNotice="{{ notice.titleNotice }}"
+        resumeNotice="{{ notice.resumeNotice }}"
+        idNotice="{{ notice.idNotice }}"
+      ></app-small-card>
+    </div>
+  </body>
+</html>

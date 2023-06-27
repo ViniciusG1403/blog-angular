@@ -3,8 +3,8 @@ main {
   animation-name: big-card;
   animation-duration: 3s;
   animation-fill-mode: both;
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
 }
 @keyframes big-card {
   0% {
