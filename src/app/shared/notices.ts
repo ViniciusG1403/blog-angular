@@ -4,6 +4,7 @@ export const mainNotice = {
   imgTitle: 'Lançamento do Homem de Ferro é adiada!',
   imgSubtitle:
     'Devido a falha na armadura, o filme deve estrear 30 dias após o prazo.',
+  idNotice: '1',
 };
 
 export const noticeList = [
@@ -13,7 +14,9 @@ export const noticeList = [
     titleNotice: 'Alanzoka, o cara profissional.',
     resumeNotice:
       'O cara é profissional, ele gosta de pegar no pau, ele gosta de dar o c# bacana, ele gosta de chupar uma cana, o nome dele é Alan!',
-    idNotice: '1',
+    noticiaPrincipal:
+      'Alanzoka, renomado streamer profissional da Twitch, anuncia novo projeto revolucionário\n\nAlanzoka, reconhecido mundialmente como um dos principais streamers profissionais da plataforma Twitch, surpreendeu sua comunidade de fãs ao revelar seu novo projeto inovador. Com uma base de seguidores que ultrapassa a marca dos milhões, o influenciador digital compartilhou detalhes empolgantes sobre sua mais recente empreitada.\n\nO novo projeto de Alanzoka promete revolucionar a forma como os espectadores interagem com seus jogos favoritos. Sem entrar em muitos detalhes, o streamer afirmou que está desenvolvendo uma plataforma interativa de streaming, que proporcionará uma experiência única e imersiva aos seus seguidores.\n\nAinda não foram divulgadas muitas informações sobre o projeto, mas rumores indicam que Alanzoka está trabalhando em parceria com renomadas empresas de tecnologia e games para trazer recursos inovadores ao mundo dos streams.\n\nA comunidade de fãs de Alanzoka está ansiosa e empolgada com a notícia, especulando sobre as possibilidades e recursos que a nova plataforma trará. Com base no histórico do streamer, é esperado que o projeto seja de alta qualidade e surpreenda a todos.\n\nAlém de seu novo projeto, Alanzoka continuará a transmitir suas partidas emocionantes, proporcionando momentos divertidos e inesquecíveis para seus seguidores. Sua dedicação e profissionalismo são evidentes em seu trabalho, e a comunidade está ansiosa por mais conteúdo de alta qualidade.\n\nCom sua notoriedade na plataforma Twitch e sua habilidade em cativar o público, Alanzoka tem tudo para fazer história mais uma vez com seu novo projeto, conquistando ainda mais fãs e estabelecendo um novo patamar no mundo dos streamers profissionais. A expectativa é alta e todos aguardam ansiosamente por mais novidades desse influenciador tão querido pela comunidade gamer.',
+    idNotice: '2',
   },
   {
     imgSrc:
@@ -21,7 +24,7 @@ export const noticeList = [
     titleNotice: 'Alanzoka, o cara profissional.',
     resumeNotice:
       'O cara é profissional, ele gosta de pegar no pau, ele gosta de dar o c# bacana, ele gosta de chupar uma cana, o nome dele é Alan!',
-    idNotice: '1',
+    idNotice: '3',
   },
   {
     imgSrc:
@@ -29,6 +32,6 @@ export const noticeList = [
     titleNotice: 'Alanzoka, o cara profissional.',
     resumeNotice:
       'O cara é profissional, ele gosta de pegar no pau, ele gosta de dar o c# bacana, ele gosta de chupar uma cana, o nome dele é Alan!',
-    idNotice: '1',
+    idNotice: '4',
   },
 ];

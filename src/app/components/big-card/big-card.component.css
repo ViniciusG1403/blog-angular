@@ -36,3 +36,19 @@ img {
   font-weight: 300;
   color: rgb(66, 66, 66);
 }
+
+.big-card-title h3 {
+  align-self: center;
+  color: rgb(122, 120, 120);
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+.big-card-title h3:hover {
+  color: white;
+  cursor: pointer;
+}
