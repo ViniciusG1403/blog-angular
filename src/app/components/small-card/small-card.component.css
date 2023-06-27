@@ -36,14 +36,16 @@ main img {
 }
 .texts h1 {
   font-family: "Pathway Extreme", sans-serif;
+  width: 90%;
   color: white;
-  font-size: 1vw;
+  font-size: 0.8vw;
   letter-spacing: 2px;
   align-self: center;
 }
 
 .texts span {
   align-self: center;
+  font-size: 0.6vw;
   width: 90%;
   color: rgb(133, 132, 132);
   font-family: "Pathway Extreme", sans-serif;
@@ -53,7 +55,7 @@ main img {
   align-self: center;
   color: rgb(122, 120, 120);
   font-family: "Pathway Extreme", sans-serif;
-  font-size: 15px;
+  font-size: 10px;
   text-decoration: none;
 }
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { takeUntil } from 'rxjs/operators';
-import { noticeList } from '../shared/notices';
+import { mainNotice, noticeList } from '../shared/notices';
 
 @Component({
   selector: 'app-notice',
@@ -17,7 +17,13 @@ export class NoticeComponent {
     this.activatedRoute.params.subscribe((params) => {
       const { id } = params;
 
-      this.notice = noticeList.find((notice) => notice.idNotice === id);
+      const noticia = noticeList.find((notice) => notice.idNotice === id);
+
+      if (!noticia) {
+        this.notice = mainNotice;
+      } else {
+        this.notice = noticia;
+      }
       console.log(this.notice);
     });
   }
