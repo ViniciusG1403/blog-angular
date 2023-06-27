@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap");
 main {
+  animation: small-card 3s;
+  animation-fill-mode: both;
   display: flex;
   width: 30vw;
   height: 158px;
@@ -8,6 +10,15 @@ main {
   align-items: center;
   box-shadow: 0px 0px 0px 1px rgb(68, 68, 67);
   border-radius: 6px;
+}
+
+@keyframes small-card {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 main img {

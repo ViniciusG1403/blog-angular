@@ -8,14 +8,14 @@
   <body>
     <div class="big-card">
       <app-big-card
-        imgSrc="{{ mainNotice.imgSrc }}"
-        imgTitle="{{ mainNotice.imgTitle }}"
-        imgSubtitle="{{ mainNotice.imgSubtitle }}"
+        imgSrc="{{ bigCardNotice.imgSrc }}"
+        imgTitle="{{ bigCardNotice.imgTitle }}"
+        imgSubtitle="{{ bigCardNotice.imgSubtitle }}"
       ></app-big-card>
     </div>
     <div class="small-card">
       <app-small-card
-        *ngFor="let notice of noticeList"
+        *ngFor="let notice of smallCardNotices"
         imgSrc="{{ notice.imgSrc }}"
         titleNotice="{{ notice.titleNotice }}"
         resumeNotice="{{ notice.resumeNotice }}"
