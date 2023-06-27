@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@700&display=swap");
+main {
+  animation-name: big-card;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  height: 100%;
+  width: 100%;
+}
+@keyframes big-card {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img {
+  width: 95%;
+}
+.big-card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.big-card-title h1 {
+  font-size: 1.5vw;
+  font-family: "Ysabeau SC", sans-serif;
+  color: white;
+}
+
+.big-card-title span {
+  font-size: 0.8vw;
+  font-family: "Ysabeau SC", sans-serif;
+  font-weight: 300;
+  color: rgb(66, 66, 66);
+}
+
+.big-card-title h3 {
+  align-self: center;
+  color: rgb(122, 120, 120);
+  font-family: "Pathway Extreme", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+.big-card-title h3:hover {
+  color: white;
+  cursor: pointer;
+}
